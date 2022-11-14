@@ -1,3 +1,36 @@
 ol {
   display: inline;
 }
+
+.container{
+  display: grid;
+  
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+img {
+  width: 220px;
+  height: 200px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.configurar{
+  display: inline;
+}
+
+.gris{
+  display: inline;
+ color: rgb(0 0 0 / 44%);
+}
+
+.info{
+  display: inline;
+}
