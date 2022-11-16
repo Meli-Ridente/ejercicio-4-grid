@@ -7,7 +7,7 @@ header{
   background-image: url(https://www.autopista.es/uploads/s1/57/50/93/9/article-bmwm-salon-shangai-i8-protonic-frozen-yellow-serie-5-l-batalla-larga-58ecad37722b9.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   position: relative;
 }
@@ -28,17 +28,18 @@ nav::after{
   width: 75%;
   height: 1px;
   position: absolute;
-  top: 40px;
+  top: 60px;
 }
 
 
 ul{
+  padding: 20px;
   display: flex;
 }
 
 .imagen-bmw{
   width: 50px;
-  height: 50px;
+  height: 35px;
 }
 
 .lista-derecha > ol {
@@ -64,6 +65,8 @@ ul{
   background-color: blue;
   color: white;
   padding: 10px;
+  border: none;
+  border-radius: 10px;
 }
 
 
